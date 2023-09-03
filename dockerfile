@@ -12,7 +12,8 @@
 #RUN mvn clean package
 
 # Use a lightweight Java runtime image
-FROM adoptopenjdk/openjdk17:jre
+#FROM adoptopenjdk/openjdk17:jre
+FROM adoptopenjdk/openjdk8
 
 # Set the working directory in the container
 WORKDIR /app
