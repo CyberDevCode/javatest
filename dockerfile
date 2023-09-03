@@ -13,7 +13,7 @@
 
 # Use a lightweight Java runtime image
 #FROM adoptopenjdk/openjdk17:jre
-FROM adoptopenjdk/openjdk8
+FROM gf2ruta/jdk
 
 # Set the working directory in the container
 WORKDIR /app
